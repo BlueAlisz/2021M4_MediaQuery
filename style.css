@@ -1,0 +1,33 @@
+body .container {
+    margin: 20px;
+    padding: 20px;
+    border-style: none;
+}
+.nav-link {
+    margin: 0px 30px;
+}
+.list-group-flush .list-group-item{
+    border: 0px;
+    font-size: 16px;
+    padding: 0rem 0rem;
+}
+
+.pagination{
+    margin-top:20px ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    justify-content: center;
+    
+}
+.page-item .page-link {
+    color: black;
+}
+.follow {
+    text-align: center;
+    font-size: 13px;
+}
+@media screen and(max-width:768){
+    .cata {
+        border: none;
+    }
+}
